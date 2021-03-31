@@ -1,7 +1,10 @@
 #include <iostream>
+#include <Windows.h>
 
 int main()
 {
-	std::cout << "Hello, eldorado!!!";
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
 	return 0;
 }
